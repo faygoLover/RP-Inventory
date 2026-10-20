@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "faygolover.rpinventory.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "rpinventory.refmap.json",
+  "mixins": [
+    "AbstractContainerMenuMixin",
+    "InventoryMixin",
+    "InvWrapperMixin",
+    "ServerGamePacketListenerImplMixin",
+    "SlotMixin"
+  ],
+  "client": ["MinecraftMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

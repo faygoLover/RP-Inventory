@@ -1,0 +1,23 @@
+{
+  "rpinventory.dropped": "Не хватило места: %s предм. выпало",
+  "rpinventory.part.hotbar": "Хотбар",
+  "rpinventory.part.storage": "Хранилище",
+  "rpinventory.part.feet": "Ботинки",
+  "rpinventory.part.legs": "Поножи",
+  "rpinventory.part.chest": "Нагрудник",
+  "rpinventory.part.head": "Шлем",
+  "rpinventory.part.offhand": "Вторая рука",
+  "rpinventory.show.head": "Инвентарь %s:",
+  "rpinventory.show.exempt": "Без ограничений (ГМ или творческий режим).",
+  "rpinventory.show.frozen": "[заморожено]",
+  "rpinventory.show.sources": "Из чего сложилось:",
+  "rpinventory.set.done": "%s = %s у игроков: %s",
+  "rpinventory.reset.done": "Личные поправки сброшены у игроков: %s",
+  "rpinventory.curios.none": "Curios не установлен.",
+  "rpinventory.curios.head": "Слоты Curios у %s (типов: %s), справа — поправки RP Inventory:",
+  "rpinventory.command.show": "ёмкость инвентаря игрока и из чего она сложилась",
+  "rpinventory.command.set": "личная база части инвентаря (hotbar, storage, head, chest, legs, feet, offhand)",
+  "rpinventory.command.set_curios": "личный предел слотов Curios типа",
+  "rpinventory.command.reset": "убрать личные поправки",
+  "rpinventory.command.curios": "какие типы слотов Curios есть и сколько открыто"
+}

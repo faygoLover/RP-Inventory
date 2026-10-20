@@ -1,0 +1,23 @@
+{
+  "rpinventory.dropped": "Not enough room: %s item(s) dropped",
+  "rpinventory.part.hotbar": "Hotbar",
+  "rpinventory.part.storage": "Storage",
+  "rpinventory.part.feet": "Boots",
+  "rpinventory.part.legs": "Leggings",
+  "rpinventory.part.chest": "Chestplate",
+  "rpinventory.part.head": "Helmet",
+  "rpinventory.part.offhand": "Offhand",
+  "rpinventory.show.head": "Inventory of %s:",
+  "rpinventory.show.exempt": "Not limited (GM or creative mode).",
+  "rpinventory.show.frozen": "[frozen]",
+  "rpinventory.show.sources": "Made of:",
+  "rpinventory.set.done": "%s = %s for players: %s",
+  "rpinventory.reset.done": "Personal overrides cleared for players: %s",
+  "rpinventory.curios.none": "Curios is not installed.",
+  "rpinventory.curios.head": "Curios slots of %s (%s types), RP Inventory rules on the right:",
+  "rpinventory.command.show": "player's inventory capacity and what it is made of",
+  "rpinventory.command.set": "personal base of an inventory part (hotbar, storage, head, chest, legs, feet, offhand)",
+  "rpinventory.command.set_curios": "personal limit of a Curios slot type",
+  "rpinventory.command.reset": "clear personal overrides",
+  "rpinventory.command.curios": "which Curios slot types exist and how many are open"
+}
