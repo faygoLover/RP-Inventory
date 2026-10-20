@@ -128,6 +128,9 @@ tasks.named('jar', Jar).configure {
         ])
     }
 
+    // В сборку для игроков не идут игровые тесты и их площадка; для разработки они остаются.
+    exclude 'faygolover/rpinventory/gametest/**', 'data/rpinventory/structures/**'
+
     finalizedBy 'reobfJar'
 }
 
