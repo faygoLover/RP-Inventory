@@ -31,7 +31,7 @@
   `_mcref/mods/x`). Уже разобраны: `inventoryfree-3.2.1`, `exposure-1.9.21`, `cuffed-1.3.13`, `emf-3.3.7`, `pal-1.0.2`.
   Искать с явным путём (`_mcref` скрыт от общего поиска).
 - Чужие моды в dev-запуске: jar из сборки, через `fg.deobf` и `flatDir` (так проверяли заплатки RP Fixes на Custom NPCs
-  и InventoryFree). Jar сборки — `%APPDATA%\ElyPrismLauncher\instances\DEP_S5_admin\minecraft\mods`.
+  и InventoryFree). Jar сборки — `D:\ElyPrismLauncher\instances\DEP_S5_admin\minecraft\mods`.
 
 ## Что знать про RP Core
 - Розетки — интерфейсы в `RP Core/src/main/java/faygolover/rpcore/api/` (образец — `StaminaProvider`), регистрация и
