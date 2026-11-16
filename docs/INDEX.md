@@ -1,16 +1,16 @@
 # RP Inventory — указатель кода
 
-Создано `python _family/tools/mapgen.py`, версия мода 0.1.0-1.20.1-forge.
+Создано `python _family/tools/mapgen.py`, версия мода 0.1.1-1.20.1-forge.
 **Руками не править**: пересоздаётся скриптом. Смысл, потоки работы и рецепты — в `docs/MAP.md`.
 Разбор по шаблонам, без компиляции: необычно оформленная регистрация может отсутствовать в списках.
 
-Всего: 26 файлов, 2157 строк Java.
+Всего: 26 файлов, 2159 строк Java.
 
 ## 1. Пакеты
 
 | Пакет | Файлов | Строк |
 |---|---:|---:|
-| `faygolover.rpinventory` | 4 | 316 |
+| `faygolover.rpinventory` | 4 | 318 |
 | `faygolover.rpinventory.client` | 3 | 262 |
 | `faygolover.rpinventory.compat` | 2 | 116 |
 | `faygolover.rpinventory.gametest` | 2 | 277 |
@@ -25,7 +25,7 @@
 - `InvCommand`, 142 — /rpinv: show — итог и из чего сложился; set — личная поправка ГМа; reset; curios — типы слотов Curios.
 - `InvConfig`, 85 — Настройки сервера (serverconfig/rpinventory-server.toml мира; клиентам приходят сами).
 - `InvProvider`, 40 — Розетка Core: ответы по итоговой ёмкости (InvState) — на сервере и на клиенте.
-- `RpInventory`, 49 — RP Inventory — ограничение инвентаря семейства RP вместо InventoryFree.
+- `RpInventory`, 51 — RP Inventory — ограничение инвентаря семейства RP вместо InventoryFree.
 
 ### `faygolover.rpinventory.client`
 - `ClientHotbar`, 106 — HUD-хотбар по открытым ячейкам: полоска короче и по центру, вторая рука и индикатор удара — у её краёв.
@@ -104,7 +104,7 @@
 
 ## 8. Что берёт из RP Core и что ему даёт
 
-Методы `RpCoreAPI` (сколько вызовов): `inventoryModifiers` 1, `registerCommand` 5, `registerInventory` 1, `registerInventoryModifier` 1, `registerModule` 1.
+Методы `RpCoreAPI` (сколько вызовов): `inventoryModifiers` 1, `registerCommand` 5, `registerInventory` 1, `registerInventoryModifier` 1, `registerModule` 1, `reportCompat` 1.
 
 Реализует розетки: InventoryModifier ← `ItemModifiers`; InventoryProvider ← `InvProvider`.
 

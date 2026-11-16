@@ -38,6 +38,8 @@ public final class RpInventory {
             // Предметы-расширители из датапака (data/<ns>/rpinventory/modifiers) — такой же источник, как особенности.
             RpCoreAPI.registerInventoryModifier(ItemModifiers.SOURCE, ItemModifiers.INSTANCE);
             RpCoreAPI.registerModule(MODID, "Ограничение инвентаря: хотбар, хранилище, броня, вторая рука, Curios");
+            // Необязательные интеграции — в общий отчёт RP Core (/rpcore compat).
+            faygolover.rpcore.api.RpCoreAPI.reportCompat(MODID, "curios");
             RpCoreAPI.registerCommand(MODID, "/rpinv show <игрок>", "rpinventory.command.show", 2, false);
             RpCoreAPI.registerCommand(MODID, "/rpinv set <игроки> <часть> <число>", "rpinventory.command.set", 2, false);
             RpCoreAPI.registerCommand(MODID, "/rpinv set <игроки> curios <тип> <число>", "rpinventory.command.set_curios", 2, false);
